@@ -74,3 +74,34 @@ The primary installer file will be:
 3. Commit and push the updated `latest.json` file to the `main` branch of the `AutoDemo-Releases` repository.
 
 Once pushed, all active installations will immediately detect the update on next launch.
+
+---
+
+## Future Release Checklist
+
+Use this checklist for every future version release to ensure a smooth, error-free deployment:
+
+- [ ] **Sync Local Versions**
+  - Update `"version"` in `package.json` to `"X.Y.Z-beta.N"`.
+  - Update `"version"` in `src-tauri/tauri.conf.json` to `"X.Y.Z-beta.N"`.
+- [ ] **Pre-build Validation & Compilation**
+  - Run TypeScript compile check: `npx tsc --noEmit`.
+  - Set release environment variable: `$env:TAURI_RELEASE_TAG="vX.Y.Z-beta.N"`.
+  - Compile the production bundle: `npm run tauri build`.
+  - Confirm the NSIS installer was successfully created: `src-tauri/target/release/bundle/nsis/AutoDemo_X.Y.Z_x64-setup.exe`.
+- [ ] **Create GitHub Release**
+  - Go to [AutoDemo-Releases Releases](https://github.com/pawanshekhawat/AutoDemo-Releases/releases).
+  - Draft a new release with tag `vX.Y.Z-beta.N` and title `AutoDemo X.Y.Z Beta N`.
+  - Upload the installer `AutoDemo_X.Y.Z_x64-setup.exe` as the primary asset.
+  - Publish the release as a pre-release.
+- [ ] **Update Update Metadata (`latest.json`)**
+  - Open `latest.json` in the releases repository.
+  - Update `"version"` to `"X.Y.Z-beta.N"`.
+  - Update `"downloadUrl"` to `https://github.com/pawanshekhawat/AutoDemo-Releases/releases/download/vX.Y.Z-beta.N/AutoDemo_X.Y.Z_x64-setup.exe`.
+  - Add descriptive `"releaseNotes"` as an array of strings.
+  - Save, commit, and push `latest.json` to the `main` branch.
+- [ ] **End-to-End Verification**
+  - Verify `latest.json` is reachable at `https://raw.githubusercontent.com/pawanshekhawat/AutoDemo-Releases/main/latest.json`.
+  - Start the application and check that it bypasses the update overlay (since version matches).
+  - Expand diagnostic info in the settings/about screen to verify correct version metadata display.
+
