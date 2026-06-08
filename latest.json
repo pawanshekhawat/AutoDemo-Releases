@@ -1,0 +1,12 @@
+{
+  "version": "0.1.0-beta.1",
+  "downloadUrl": "https://github.com/pawanshekhawat/AutoDemo-Releases/releases/download/v0.1.0-beta.1/AutoDemo_0.1.0_x64-setup.exe",
+  "releaseNotes": [
+    "Initial beta release",
+    "Screen recording",
+    "Timeline editor",
+    "Auto zoom",
+    "Blur tool",
+    "Export support"
+  ]
+}
