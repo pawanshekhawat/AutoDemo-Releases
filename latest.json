@@ -1,8 +1,11 @@
 {
   "version": "0.1.0-beta.2",
-  "downloadUrl": "https://github.com/pawanshekhawat/AutoDemo-Releases/releases/download/v0.1.0-beta.2/AutoDemo_0.1.0_x64-setup.exe",
+  "downloadUrl": "https://github.com/pawanshekhawat/AutoDemo-Releases/releases/download/v0.1.0-beta.2/AutoDemo_0.1.0-beta.2_x64-setup.exe",
   "releaseNotes": [
-    "Simulating beta.2 release",
-    "Upgrade check end-to-end confirmation"
+    "Fix recording immediately stopping after ~1 second on hardware-accelerated systems",
+    "Add diagnostic logging for selected encoder, exact FFmpeg command, and child exit code",
+    "Add immediate validation of screen.mp4 and log direct FFmpeg stderr output on failure",
+    "Implement Update Diagnostics panel in System Diagnostics showing URL, checks, and fetch errors",
+    "Resolve Windows MSI bundling version tag constraints for installer packaging"
   ]
 }
