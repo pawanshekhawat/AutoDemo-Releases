@@ -1,11 +1,10 @@
 {
-  "version": "0.1.0-beta.2",
-  "downloadUrl": "https://github.com/pawanshekhawat/AutoDemo-Releases/releases/download/v0.1.0-beta.2/AutoDemo_0.1.0-beta.2_x64-setup.exe",
+  "version": "0.1.0-beta.3",
+  "downloadUrl": "https://github.com/pawanshekhawat/AutoDemo-Releases/releases/download/v0.1.0-beta.3/AutoDemo_0.1.0-beta.3_x64-setup.exe",
   "releaseNotes": [
-    "Fix recording immediately stopping after ~1 second on hardware-accelerated systems",
-    "Add diagnostic logging for selected encoder, exact FFmpeg command, and child exit code",
-    "Add immediate validation of screen.mp4 and log direct FFmpeg stderr output on failure",
-    "Implement Update Diagnostics panel in System Diagnostics showing URL, checks, and fetch errors",
-    "Resolve Windows MSI bundling version tag constraints for installer packaging"
+    "Fix recording corruption (diagonal tearing, horizontal banding) on non-1080p monitors by correctly stripping GPU stride padding",
+    "Ensure capture pipeline uses unpadded frame buffer copying row-by-row via as_nopadding_buffer",
+    "Audit window creation and size constraints to keep application windows fully centered and clamped inside the monitor work area",
+    "Improve first frame and heartbeat diagnostic logging in the Windows Graphics Capture pipeline"
   ]
 }
