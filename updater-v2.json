@@ -1,0 +1,11 @@
+{
+  "version": "0.1.0-beta.3",
+  "notes": "✓ Production Updater Verification Release\n✓ Custom UI progress bar and auto-relaunch support",
+  "pub_date": "2026-06-10T16:25:00+05:30",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRFU2SUJObk0vSi85RlpsNzY1cThzTWNQTkJ5NjJaUHBaeExidm9JUFVZU2VUMzhGQU5GcUdyRlpOMy9GZkRrbktLQXFSOUFXaFZlMllXazNZZ2c5MCtYUmtrdW5zWUF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgxMDg5MDY1CWZpbGU6QXV0b0RlbW9fMC4xLjAtYmV0YS4zX3g2NC1zZXR1cC5leGUKUTBxTFY0ZmhWVmYyVm9haU5rc1JwcE15UmNBMlRCcVU3ekJISEVjWno4OEVZUFVqUjFhWHRtYXhqM0hCaFI4SmxoQUNWdERweS9OOUFrUTVGdGFLQUE9PQo=",
+      "url": "https://github.com/pawanshekhawat/AutoDemo-Releases/releases/download/v0.1.0-beta.3/AutoDemo_0.1.0-beta.3_x64-setup.exe"
+    }
+  }
+}
