@@ -1,10 +1,11 @@
 {
-  "version": "0.1.0-beta.3",
-  "downloadUrl": "https://github.com/pawanshekhawat/AutoDemo-Releases/releases/download/v0.1.0-beta.3/AutoDemo_0.1.0-beta.3_x64-setup.exe",
+  "version": "0.1.0-beta.4",
+  "downloadUrl": "https://github.com/pawanshekhawat/AutoDemo-Releases/releases/download/v0.1.0-beta.4/AutoDemo_0.1.0-beta.4_x64-setup.exe",
   "releaseNotes": [
-    "Fix recording corruption (diagonal tearing, horizontal banding) on non-1080p monitors by correctly stripping GPU stride padding",
-    "Ensure capture pipeline uses unpadded frame buffer copying row-by-row via as_nopadding_buffer",
-    "Audit window creation and size constraints to keep application windows fully centered and clamped inside the monitor work area",
-    "Improve first frame and heartbeat diagnostic logging in the Windows Graphics Capture pipeline"
+    "Migrate to Windows Graphics Capture (WGC) for ultra-smooth 60/120 FPS display and application window recording.",
+    "Implement a zero-allocation frame circular buffer pool to eliminate memory allocations and garbage collection overhead.",
+    "Establish automatic GPU encoder probing (NVENC, AMF, QSV) with standard software transcoding fallback.",
+    "Integrate parent process watcher threads using native Win32 wait handles for synchronized application exits.",
+    "Support UAC Secure Desktop pauses and single-instance instance locks over TCP loops."
   ]
 }
