@@ -1,6 +1,6 @@
 {
   "version": "0.1.0-beta.5",
-  "notes": "Release binaries and bundles.",
+  "notes": "✓ Action and Boundary camera tracking presets\n✓ Premium iOS Phone mockup frame wrapper and social crop targets\n✓ Slider-controlled cursor motion blur with interactive physics animation\n✓ Fully automated cross-platform distribution and signing flow\n✓ Native platform abstractions for process management and permissions",
   "pub_date": "2026-06-14T07:57:14.590Z",
   "platforms": {
     "windows-x86_64": {

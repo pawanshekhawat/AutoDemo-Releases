@@ -8,6 +8,10 @@
     "linux": "https://github.com/pawanshekhawat/AutoDemo-Releases/releases/download/v0.1.0-beta.5/AutoDemo_0.1.0-beta.5_amd64.AppImage"
   },
   "releaseNotes": [
-    "Bug fixes and performance improvements."
+    "Introduce premium Action and Boundary camera tracking presets for precise capture focus.",
+    "Add iOS Phone device mockup frame wrapper and social-media crop layouts (TikTok, Reels).",
+    "Configure range-based cursor motion blur with an interactive physics simulation preview.",
+    "Fully automated cross-platform distribution pipeline supporting Windows, macOS, and Linux.",
+    "Integrate robust native abstractions for cross-platform process management and permissions."
   ]
 }
