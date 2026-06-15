@@ -1,19 +1,19 @@
 {
-  "version": "0.1.0-beta.6",
-  "notes": "Release binaries and bundles.",
-  "pub_date": "2026-06-15T09:30:54.497Z",
+  "version": "0.1.0-beta.7",
+  "notes": "# AutoDemo v0.1.0-beta.7\r\n\r\nThis release introduces critical fixes to resolve macOS execution blocks and bundles real static FFmpeg binaries on all supported platforms (Windows, macOS, Linux).\r\n\r\n---\r\n\r\n## Key Improvements & Fixes\r\n\r\n### 1. macOS Code Signing & Notarization Pipeline\r\n* **Apple Security Compliance:** Integrated Apple Developer credentials into the GitHub Actions release workflow. Builds can now automatically codesign, configure the Hardened Runtime, and submit the compiled packages to Apple's notarization services.\r\n* **Gatekeeper Resolution:** Addresses the root cause of the immediate app crash (`zsh: killed` / `\"damaged and can't be opened\"` errors) by transitioning the application from ad-hoc signatures to a verified Developer ID identity.\r\n\r\n### 2. Static FFmpeg Bundling (All Platforms)\r\n* **Out-of-the-Box Functionality:** Replaced empty placeholder assets with official, static, pre-compiled FFmpeg binaries from the Shaka Project:\r\n  - **Windows:** Bundles `ffmpeg-win-x64.exe` natively.\r\n  - **macOS (Apple Silicon):** Bundles `ffmpeg-mac-arm64` (fully executable).\r\n  - **Linux:** Bundles `ffmpeg-linux-x64` (fully executable).\r\n* **Feature Parity:** This enables screen recording (Windows) and timeline video exports (macOS, Windows, Linux) to work out-of-the-box in production setups without requiring users to manually install FFmpeg on their system PATH.\r\n\r\n### 3. Version Alignment\r\n* All configuration descriptors and lockfiles (`package.json`, `package-lock.json`, `Cargo.toml`, `Cargo.lock`, and `tauri.conf.json`) have been cleanly aligned and synchronized to `v0.1.0-beta.7`.\r\n",
+  "pub_date": "2026-06-15T11:10:42Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRa2FwV2dlM2E1NFNXMVJnd21CUmlZQjhSdW5oM0RJa0J6NUpBWEh1SHBzK25ZQWpmSWwxTnFycWZEM2ZzTWJqMjZ0bStWbjRhWmVKUkhlZFdaNjh5MFltcU5CT2lrQXdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgxNTE1Nzk5CWZpbGU6QXV0b0RlbW9fMC4xLjAtYmV0YS42X3g2NC1zZXR1cC5leGUKY2ZyS1U0amlBOWdlbXZYemdXUVNBbVhPWjE2RmNUa2RUemU1OGZEdjFLaHZHNjBZQWZjbDlOeDZYSWJIZUlwdEJyZlZnc2ovdXRhR0dDVUtlYmlmQUE9PQo=",
-      "url": "https://github.com/pawanshekhawat/AutoDemo-Releases/releases/download/v0.1.0-beta.6/AutoDemo_0.1.0-beta.6_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRa2FwV2dlM2E1NGREb0Y3UWRiZGVtY0NnUTFkNlI2aW5nWWdDcTNwOUJORUl5NkJpUkZ2WlZEUVdkNUt3TTk2T3A0KzVLc1I2N2dOUDIwNmZkK21VQ0xST0dOOWxhWmdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgxNTIyMjA2CWZpbGU6QXV0b0RlbW9fMC4xLjAtYmV0YS43X3g2NC1zZXR1cC5leGUKRlh5WTFkWTJudU92UEhzMHdFWG5GMmhSeTF6UHRtT1FFUmpKUXdNSEZ6THN3bkFLZVlkQzJzcnV2U054VjB6Q256cDRSTHUzZ2lYYTJrc1FFMlhNRGc9PQo=",
+      "url": "https://github.com/pawanshekhawat/AutoDemo-Releases/releases/download/v0.1.0-beta.7/AutoDemo_0.1.0-beta.7_x64-setup.exe"
     },
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRa2FwV2dlM2E1NFgybHJPL21NZVMzVUJqaDhhR3FDYjZqYUZZR3Vnd0tnZ0J5enRyVURmd0xnVHhiRlBrSHJuaFM2S3AweHhZaldkeUdUaXA3SmN6eHZQM2pmVjdmL2dFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgxNTE1MTEwCWZpbGU6QXV0b0RlbW8uYXBwLnRhci5negpoanByaVBOVVgyeEZCT1Z6bWRtdnE4bjA1RnU3M0dRN1JtaVR5eVBUVE9LWEhITHFiY0p5K3pQc3ZKemo0TG94Z0pBZVQ2Y0g2bmcxRzBxNVZ4WXFCQT09Cg==",
-      "url": "https://github.com/pawanshekhawat/AutoDemo-Releases/releases/download/v0.1.0-beta.6/AutoDemo_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRa2FwV2dlM2E1NFFnK2VGYUdKRjZOTEUydkU2aDhZbkFENjQ3d1RzWU81MVk3Y0RCbTcrUzA3c2IvSEMyckpBcVNuOEZ0enZMRDFGbjJSdWRld096NnVja0l1NWRJbFFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgxNTIxNTYzCWZpbGU6QXV0b0RlbW8uYXBwLnRhci5negpBOEFjaFZiZFM0UUozWHNQOVhNRm44M29IMiswSlQwWGxsYnJiOEpTZTNIZm5FaDNJQW5TanBoUjVza0o3QnhmNnEwUml1MzVQcHllRUwyUm54eWlCdz09Cg==",
+      "url": "https://github.com/pawanshekhawat/AutoDemo-Releases/releases/download/v0.1.0-beta.7/AutoDemo_aarch64.app.tar.gz"
     },
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRa2FwV2dlM2E1NGJReWdBQ0FMVVdFbHRKVDFraVRPNVdPTkxjVFBsY3EyMjhaQ1R5a3lCR2VWQWZVZldCZTJkVEpIQXpIa0VuOFhxWVdscWpwOUV2aFdWejEyVnhnNmd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgxNTE1NTIxCWZpbGU6QXV0b0RlbW9fMC4xLjAtYmV0YS42X2FtZDY0LkFwcEltYWdlCjFMcmlsOXcwVlVDdml5dGtmYmFWVjhxTUZIUHpEVHdCMmxSUjJod3hiM1dCNVBoVUwrTnBMdlJTYmNVWldGN0hYV0EzZTJXdEFGclBBZXdFbUwxM0F3PT0K",
-      "url": "https://github.com/pawanshekhawat/AutoDemo-Releases/releases/download/v0.1.0-beta.6/AutoDemo_0.1.0-beta.6_amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRa2FwV2dlM2E1NGZuK2VJc2xuYlBNd0NEWGhpRi9yV0I0ejNzdmR6Zjl6SUVvNVZqZ1M4QWFxWGJRZlJ3MGoydDR4R3VVeG50bXgwUW1JZU9iY3IxQll0S2EveS9IUXcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgxNTIxODgyCWZpbGU6QXV0b0RlbW9fMC4xLjAtYmV0YS43X2FtZDY0LkFwcEltYWdlCllqUG9SL1M5NlJjazJKT29iRUJkbVpnNXNuTXc1OE9nRFJlNDVHaXZaTEpjUXRjSVJpdDBMK3VDU09ERTVTcTgzSm51R04vMk81N1VBcnpqeGJBY0RnPT0K",
+      "url": "https://github.com/pawanshekhawat/AutoDemo-Releases/releases/download/v0.1.0-beta.7/AutoDemo_0.1.0-beta.7_amd64.AppImage"
     }
   }
 }
