@@ -1,19 +1,19 @@
 {
-  "version": "0.1.0-beta.5",
-  "notes": "✓ Action and Boundary camera tracking presets\n✓ Premium iOS Phone mockup frame wrapper and social crop targets\n✓ Slider-controlled cursor motion blur with interactive physics animation\n✓ Fully automated cross-platform distribution and signing flow\n✓ Native platform abstractions for process management and permissions",
-  "pub_date": "2026-06-14T07:57:14.590Z",
+  "version": "0.1.0-beta.6",
+  "notes": "Release binaries and bundles.",
+  "pub_date": "2026-06-15T09:30:54.497Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRa2FwV2dlM2E1NFJ5ZVA1ZUV2L2psSXlIVWZUOGxDVTFVN0VQZzNabmNabFJ2RWlWNTUwWC9RTnVjSGk4a2hBRkRuZkNLVXorZkFqZ3VLdDEyKzZBemYvM3dlOGhBM3djPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgxNDE5MTE5CWZpbGU6QXV0b0RlbW9fMC4xLjAtYmV0YS41X3g2NC1zZXR1cC5leGUKVktYODBOTE5rSitIZzFuM0F2M1VlWnkrQWhLSXRPZ3pKSmxVemlsVVR5K2RMTzZsNk56ZU4yMWZIZWowQ0oyblFtNDZxWFlpd2oyQXlzQnRHekFURHc9PQo=",
-      "url": "https://github.com/pawanshekhawat/AutoDemo-Releases/releases/download/v0.1.0-beta.5/AutoDemo_0.1.0-beta.5_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRa2FwV2dlM2E1NFNXMVJnd21CUmlZQjhSdW5oM0RJa0J6NUpBWEh1SHBzK25ZQWpmSWwxTnFycWZEM2ZzTWJqMjZ0bStWbjRhWmVKUkhlZFdaNjh5MFltcU5CT2lrQXdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgxNTE1Nzk5CWZpbGU6QXV0b0RlbW9fMC4xLjAtYmV0YS42X3g2NC1zZXR1cC5leGUKY2ZyS1U0amlBOWdlbXZYemdXUVNBbVhPWjE2RmNUa2RUemU1OGZEdjFLaHZHNjBZQWZjbDlOeDZYSWJIZUlwdEJyZlZnc2ovdXRhR0dDVUtlYmlmQUE9PQo=",
+      "url": "https://github.com/pawanshekhawat/AutoDemo-Releases/releases/download/v0.1.0-beta.6/AutoDemo_0.1.0-beta.6_x64-setup.exe"
     },
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRa2FwV2dlM2E1NFMrcjkwRkh2ZkZEQWdOb25vUzBmQ2YrT0dkQ2I1MnVNUDBscTR4MnVLeHlOSnorNGFhbVIrdW1OSVIvZXNyaDgzak5uamdVUEtIMFhRN1ZseFg1T3c4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgxNDIzNzk4CWZpbGU6QXV0b0RlbW8uYXBwLnRhci5negppOU5TS0xSZlEwWTd5WjV4VFdHQ3FQQWJtcDJMakExUldKV25BSm1wdm1xVEJJSEdwdGlMMVVYSmY4bU9CSlp0QmdHc09EQTNrVEwyK3JKUGtLdFBDQT09Cg==",
-      "url": "https://github.com/pawanshekhawat/AutoDemo-Releases/releases/download/v0.1.0-beta.5/AutoDemo_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRa2FwV2dlM2E1NFgybHJPL21NZVMzVUJqaDhhR3FDYjZqYUZZR3Vnd0tnZ0J5enRyVURmd0xnVHhiRlBrSHJuaFM2S3AweHhZaldkeUdUaXA3SmN6eHZQM2pmVjdmL2dFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgxNTE1MTEwCWZpbGU6QXV0b0RlbW8uYXBwLnRhci5negpoanByaVBOVVgyeEZCT1Z6bWRtdnE4bjA1RnU3M0dRN1JtaVR5eVBUVE9LWEhITHFiY0p5K3pQc3ZKemo0TG94Z0pBZVQ2Y0g2bmcxRzBxNVZ4WXFCQT09Cg==",
+      "url": "https://github.com/pawanshekhawat/AutoDemo-Releases/releases/download/v0.1.0-beta.6/AutoDemo_aarch64.app.tar.gz"
     },
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRa2FwV2dlM2E1NFV2dFBzcVcvRXVhTkhVYVFWekVDd1pERXAvb0FTaFk4c2EvZERLTHlGeHF1bXNRTHN2aU1GQlJ3amJFYW9Za056OElYR0FESmM2eHBvL0EyM1drNFFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgxNDE4ODk4CWZpbGU6QXV0b0RlbW9fMC4xLjAtYmV0YS41X2FtZDY0LkFwcEltYWdlCmt0V3l2NlJwN29vZ0hNdXVSR2xIbE4wR2RDSTkrSzFwNFhBVGZKaUkzVkFURkkvYVNhSFovN1c5c0swTkVEYmxFK2NFWVRYYTRqczhSek9SeWhvaEFBPT0K",
-      "url": "https://github.com/pawanshekhawat/AutoDemo-Releases/releases/download/v0.1.0-beta.5/AutoDemo_0.1.0-beta.5_amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRa2FwV2dlM2E1NGJReWdBQ0FMVVdFbHRKVDFraVRPNVdPTkxjVFBsY3EyMjhaQ1R5a3lCR2VWQWZVZldCZTJkVEpIQXpIa0VuOFhxWVdscWpwOUV2aFdWejEyVnhnNmd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgxNTE1NTIxCWZpbGU6QXV0b0RlbW9fMC4xLjAtYmV0YS42X2FtZDY0LkFwcEltYWdlCjFMcmlsOXcwVlVDdml5dGtmYmFWVjhxTUZIUHpEVHdCMmxSUjJod3hiM1dCNVBoVUwrTnBMdlJTYmNVWldGN0hYV0EzZTJXdEFGclBBZXdFbUwxM0F3PT0K",
+      "url": "https://github.com/pawanshekhawat/AutoDemo-Releases/releases/download/v0.1.0-beta.6/AutoDemo_0.1.0-beta.6_amd64.AppImage"
     }
   }
 }
