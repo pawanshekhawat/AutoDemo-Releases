@@ -1,17 +1,13 @@
 {
-  "version": "0.1.0-beta.5",
-  "tag": "v0.1.0-beta.5",
-  "githubRelease": "https://github.com/pawanshekhawat/AutoDemo-Releases/releases/tag/v0.1.0-beta.5",
+  "version": "0.1.0-beta.6",
+  "tag": "v0.1.0-beta.6",
+  "githubRelease": "https://github.com/pawanshekhawat/AutoDemo-Releases/releases/tag/v0.1.0-beta.6",
   "downloads": {
-    "windows": "https://github.com/pawanshekhawat/AutoDemo-Releases/releases/download/v0.1.0-beta.5/AutoDemo_0.1.0-beta.5_x64-setup.exe",
-    "macos": "https://github.com/pawanshekhawat/AutoDemo-Releases/releases/download/v0.1.0-beta.5/AutoDemo_0.1.0-beta.5_aarch64.dmg",
-    "linux": "https://github.com/pawanshekhawat/AutoDemo-Releases/releases/download/v0.1.0-beta.5/AutoDemo_0.1.0-beta.5_amd64.AppImage"
+    "windows": "https://github.com/pawanshekhawat/AutoDemo-Releases/releases/download/v0.1.0-beta.6/AutoDemo_0.1.0-beta.6_x64-setup.exe",
+    "macos": "https://github.com/pawanshekhawat/AutoDemo-Releases/releases/download/v0.1.0-beta.6/AutoDemo_0.1.0-beta.6_aarch64.dmg",
+    "linux": "https://github.com/pawanshekhawat/AutoDemo-Releases/releases/download/v0.1.0-beta.6/AutoDemo_0.1.0-beta.6_amd64.AppImage"
   },
   "releaseNotes": [
-    "Introduce premium Action and Boundary camera tracking presets for precise capture focus.",
-    "Add iOS Phone device mockup frame wrapper and social-media crop layouts (TikTok, Reels).",
-    "Configure range-based cursor motion blur with an interactive physics simulation preview.",
-    "Fully automated cross-platform distribution pipeline supporting Windows, macOS, and Linux.",
-    "Integrate robust native abstractions for cross-platform process management and permissions."
+    "Bug fixes and performance improvements."
   ]
 }
