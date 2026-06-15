@@ -1,13 +1,24 @@
 {
-  "version": "0.1.0-beta.6",
-  "tag": "v0.1.0-beta.6",
-  "githubRelease": "https://github.com/pawanshekhawat/AutoDemo-Releases/releases/tag/v0.1.0-beta.6",
+  "version": "0.1.0-beta.7",
+  "tag": "v0.1.0-beta.7",
+  "githubRelease": "https://github.com/pawanshekhawat/AutoDemo-Releases/releases/tag/v0.1.0-beta.7",
   "downloads": {
-    "windows": "https://github.com/pawanshekhawat/AutoDemo-Releases/releases/download/v0.1.0-beta.6/AutoDemo_0.1.0-beta.6_x64-setup.exe",
-    "macos": "https://github.com/pawanshekhawat/AutoDemo-Releases/releases/download/v0.1.0-beta.6/AutoDemo_0.1.0-beta.6_aarch64.dmg",
-    "linux": "https://github.com/pawanshekhawat/AutoDemo-Releases/releases/download/v0.1.0-beta.6/AutoDemo_0.1.0-beta.6_amd64.AppImage"
+    "windows": "https://github.com/pawanshekhawat/AutoDemo-Releases/releases/download/v0.1.0-beta.7/AutoDemo_0.1.0-beta.7_x64-setup.exe",
+    "macos": "https://github.com/pawanshekhawat/AutoDemo-Releases/releases/download/v0.1.0-beta.7/AutoDemo_0.1.0-beta.7_aarch64.dmg",
+    "linux": "https://github.com/pawanshekhawat/AutoDemo-Releases/releases/download/v0.1.0-beta.7/AutoDemo_0.1.0-beta.7_amd64.AppImage"
   },
   "releaseNotes": [
-    "Bug fixes and performance improvements."
+    "# AutoDemo v0.1.0-beta.7",
+    "(Windows, macOS, Linux).",
+    "## Key Improvements & Fixes",
+    "### 1. macOS Code Signing & Notarization Pipeline",
+    "'s notarization services.",
+    "(`zsh: killed` / `\"damaged and can't be opened\"` errors) by transitioning the application from ad-hoc signatures to a verified Developer ID identity.",
+    "### 2. Static FFmpeg Bundling (All Platforms)",
+    "(Apple Silicon):** Bundles `ffmpeg-mac-arm64` (fully executable).",
+    "(fully executable).",
+    "(Windows) and timeline video exports (macOS, Windows, Linux) to work out-of-the-box in production setups without requiring users to manually install FFmpeg on their system PATH.",
+    "### 3. Version Alignment",
+    "(`package.json`, `package-lock.json`, `Cargo.toml`, `Cargo.lock`, and `tauri.conf.json`) have been cleanly aligned and synchronized to `v0.1.0-beta.7`."
   ]
 }
